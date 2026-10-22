@@ -1,0 +1,7 @@
+# RoBERTa (paper Section 4.3)
+model: roberta-base
+learning_rate: 1.0e-4  # as reported; 1e-5 to 3e-5 is more typical for full fine-tuning
+batch_size: 32
+epochs: 20
+dropout: 0.1
+max_length: 512        # not stated in the paper; RoBERTa's maximum

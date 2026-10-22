@@ -1,0 +1,12 @@
+# Bi-LSTM (paper Section 4.2)
+vocab_size: 34172      # vocabulary size reported in the paper
+embedding_dim: 100
+max_len: 5840          # input length reported in the paper (longest article); lower it to speed up training
+hidden: 128
+dense: 256
+dropout: 0.2
+learning_rate: 1.0e-4  # Adam
+batch_size: 32
+epochs: 50
+# The paper lists binary cross-entropy; for 4 mutually exclusive classes this code
+# uses categorical cross-entropy, the standard equivalent.

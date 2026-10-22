@@ -1,0 +1,5 @@
+# TF-IDF + Passive Aggressive Classifier (paper Section 4.1)
+max_df: 0.7
+C: 0.5
+max_iter: 50
+random_state: 5

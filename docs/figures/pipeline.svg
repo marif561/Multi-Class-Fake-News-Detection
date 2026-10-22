@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 280" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#57606a"/>
+    </marker>
+    <style>
+      .t{font-size:15px;font-weight:600;fill:#1f2328;text-anchor:middle}
+      .s{font-size:12px;fill:#57606a;text-anchor:middle}
+      .ln{stroke:#57606a;stroke-width:1.6;fill:none;marker-end:url(#a)}
+    </style>
+  </defs>
+  <rect width="960" height="280" fill="#ffffff"/>
+  <text x="480" y="30" font-size="18" font-weight="700" fill="#1f2328" text-anchor="middle">CheckThat! 2022 Task 3 · train on English, test on English (3a) or German (3b)</text>
+
+  <rect x="10" y="95" width="160" height="80" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+  <text class="t" x="90" y="128">News article</text>
+  <text class="s" x="90" y="150">title + text (~1,300 EN)</text>
+
+  <rect x="200" y="95" width="160" height="80" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+  <text class="t" x="280" y="128">Pre-processing</text>
+  <text class="s" x="280" y="150">clean chars · stop words</text>
+
+  <rect x="400" y="55" width="200" height="44" rx="8" fill="#fff8c5" stroke="#d4a72c" stroke-width="1.5"/>
+  <text class="t" x="500" y="76">TF-IDF + Passive Aggr.</text>
+  <text class="s" x="500" y="92">machine learning</text>
+  <rect x="400" y="113" width="200" height="44" rx="8" fill="#dafbe1" stroke="#4ac26b" stroke-width="1.5"/>
+  <text class="t" x="500" y="134">Bi-LSTM</text>
+  <text class="s" x="500" y="150">deep learning · best on 3b</text>
+  <rect x="400" y="171" width="200" height="44" rx="8" fill="#ddf4ff" stroke="#54aeff" stroke-width="1.5"/>
+  <text class="t" x="500" y="192">RoBERTa-base</text>
+  <text class="s" x="500" y="208">transformer · best on 3a</text>
+
+  <rect x="650" y="95" width="290" height="80" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+  <text class="t" x="795" y="125">4 classes · macro-F1</text>
+  <text class="s" x="795" y="147">false · partially false · true · other</text>
+  <text class="s" x="795" y="165" style="font-weight:600;fill:#0969da">3a: 28.60 · 3b: 17.21 (official)</text>
+
+  <path class="ln" d="M170,135 H197"/>
+  <path class="ln" d="M360,135 C380,135 380,77 397,77"/>
+  <path class="ln" d="M360,135 H397"/>
+  <path class="ln" d="M360,135 C380,135 380,193 397,193"/>
+  <path class="ln" d="M600,77 C625,77 625,135 647,135"/>
+  <path class="ln" d="M600,135 H647"/>
+  <path class="ln" d="M600,193 C625,193 625,135 647,135"/>
+
+  <text class="s" x="480" y="255">Task 3b is zero-shot: no German training data, models trained on English only</text>
+</svg>

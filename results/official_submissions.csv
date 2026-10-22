@@ -1,0 +1,3 @@
+task,setting,reported_model,macro_f1_percent,note
+3a,English -> English,RoBERTa,28.60,as stated in the abstract
+3b,English -> German,Bi-LSTM,17.21,"abstract credits Bi-LSTM, but 0.17 matches the RoBERTa row of Table 3"

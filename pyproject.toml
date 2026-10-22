@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fakenews"
+version = "1.0.0"
+description = "Multi-class and cross-lingual fake news detection (CLEF CheckThat! 2022 Task 3)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+  { name = "Muhammad Arif" }, { name = "Atnafu Lambebo Tonja" }, { name = "Iqra Ameer" },
+  { name = "Olga Kolesnikova" }, { name = "Alexander Gelbukh" }, { name = "Grigori Sidorov" },
+  { name = "Abdul Gafar Manuel Meque" },
+]
+dependencies = ["pandas", "numpy", "scikit-learn>=1.2", "pyyaml"]
+
+[project.optional-dependencies]
+neural = ["torch>=2.0", "transformers>=4.41", "datasets>=2.14", "accelerate>=0.25", "sentencepiece"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

@@ -1,0 +1,7 @@
+task,setting,model,accuracy,macro_precision,macro_recall,macro_f1
+3a,English -> English,Passive Aggressive,0.51,0.29,0.25,0.20
+3a,English -> English,Bi-LSTM,0.52,0.13,0.25,0.17
+3a,English -> English,RoBERTa,0.47,0.36,0.34,0.29
+3b,English -> German,Passive Aggressive,,,,
+3b,English -> German,Bi-LSTM,0.61,0.37,0.39,0.35
+3b,English -> German,RoBERTa,0.28,0.13,0.26,0.17

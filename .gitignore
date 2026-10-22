@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+outputs/
+checkpoints/
+wandb/
+.DS_Store
+
+# CheckThat! data belongs to the organisers — never commit it
+data/en/
+data/de/

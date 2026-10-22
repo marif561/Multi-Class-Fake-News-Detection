@@ -1,0 +1,5 @@
+public_id,title,text,our rating
+de_te_0,Wissenschaftler bestätigen Mond aus Käse,"Ein Beitrag behauptet, Astronauten hätten Käse mitgebracht. Keine Raumfahrtbehörde berichtet darüber.",false
+de_te_1,Stadt eröffnet neue Bibliothek,"Die Bibliothek wurde am Montag mit 50.000 Büchern eröffnet, bestätigte das Rathaus.",true
+de_te_2,Steuererhöhung verdoppelt Preise,"Die Steuern steigen, aber nur um etwa drei Prozent.",partially false
+de_te_3,Insider deutet Fusion an,"Es gibt Spekulationen, aber keine Bestätigung der Unternehmen.",other
